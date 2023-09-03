@@ -46,3 +46,20 @@ section.intro > img {
 section#Skills>ul>li,section#Projects>div.projects>ul>li{
   margin-top: 5vh;
 }
+
+   @media (max-width : 640px) {
+    section.intro > img {
+      height: 150px;
+      width: 150px; 
+    }
+  } 
+   @media (max-width : 840px) {
+    section.intro > img {
+      height: 200px;
+      width: 200px; 
+    }
+  } 
+
+i{
+  margin: 6px;
+}

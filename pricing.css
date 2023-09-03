@@ -15,8 +15,9 @@ div#Hire {
 }
 
 .card-wrapper {
-    height: 100vh;
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -103,3 +104,15 @@ div#Hire {
     background: #fff;
 
 }
+
+  
+/* @media (width < 800) {
+    .card-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 20px;
+      text-align: left;
+    }
+  } */
